@@ -1,0 +1,57 @@
+.heder-bar{
+    display:flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.lista{
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div.lista > img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    
+}
+.lista:nth-last-of-type(3){
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+/* container contenente  */
+.conteiner{
+    display: flex;
+}
+.card > img{
+    width: 300px;
+    height: 250px;
+    
+}
+/* card */
+.card {
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+
+/* articolo */
+.articolo{
+    display: flex;
+    width: 500px;
+    height: 450px;
+    background-color: coral;
+    
+}
